@@ -3,11 +3,13 @@
 
 @import "variables";
 @import "mixins";
+@import "./bower_components/animatewithsass/animate.scss";
 
 // (`ㅅ`)づ project-wide rules
 
 @import "hubspot"; // remove on production
 @import "stride";
+@import "header";
 
 // (`ㅅ`)づ page-wide rules
 

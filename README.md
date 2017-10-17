@@ -4,17 +4,17 @@ A copy of existing stride website, with SASS features.
 
 | Page  | Prototype  |  Staging |
 |---|---|---|
-|Home Page|[Prototype](http://stride-nyc.github.io/site/index.html)|Pending|
-|How We Help|[Prototype](http://stride-nyc.github.io/site/how-we-help.html)|Pending|
-|Our Work|[Prototype](http://stride-nyc.github.io/site/our-work.html)|Pending|
-|Resource Center|[Prototype](http://stride-nyc.github.io/site/resource-center.html)|Pending|
-|Podcast|[Prototype](http://stride-nyc.github.io/site/podcast.html)|Pending|
-|Blog List|[Prototype](http://stride-nyc.github.io/site/blog.html)|Pending|
-|Company|[Prototype](http://stride-nyc.github.io/site/company.html)|Pending|
-|Careers|[Prototype](http://stride-nyc.github.io/site/careers.html)|Pending|
-|Events|[Prototype](http://stride-nyc.github.io/site/events.html)|Pending|
-|Press|[Prototype](http://stride-nyc.github.io/site/press.html)|Pending|
-|Contact|[Prototype](http://stride-nyc.github.io/site/contact.html)|Pending|
+|Home Page|[Prototype](http://stride-nyc.github.io/site/home/)|Pending|
+|How We Help|[Prototype](http://stride-nyc.github.io/site/how-we-help/)|Pending|
+|Our Work|[Prototype](http://stride-nyc.github.io/site/our-work/)|Pending|
+|Resource Center|[Prototype](http://stride-nyc.github.io/site/resource-center/)|Pending|
+|Podcast|[Prototype](http://stride-nyc.github.io/site/podcast/)|Pending|
+|Blog List|[Prototype](http://stride-nyc.github.io/site/blog/)|Pending|
+|Company|[Prototype](http://stride-nyc.github.io/site/company/)|Pending|
+|Careers|[Prototype](http://stride-nyc.github.io/site/careers/)|Pending|
+|Events|[Prototype](http://stride-nyc.github.io/site/events/)|Pending|
+|Press|[Prototype](http://stride-nyc.github.io/site/press/)|Pending|
+|Contact|[Prototype](http://stride-nyc.github.io/site/contact/)|Pending|
 
 ## TODO
 
@@ -25,9 +25,11 @@ A copy of existing stride website, with SASS features.
 - [x] merge page-specific css
 - [x] color variables
 - [x] color variables, page-specific
+- [x] use 'lazy-8/base' (browsersync, partials)
 - [ ] isolate page-specific rules
-- [ ] font variables
-- [ ] margin variables
+- [ ] generalize 'resource-center.scss'
+- [x] font variables
+- [x] margin variables
 - [ ] logo redesign
 - [ ] header redesign
 - [ ] button redesign

@@ -1,22 +1,22 @@
 .header-container-wrapper {
   @include media($size-md, min) {
     position: -webkit-sticky;
-  position: sticky;
-  top: -1px;
+    position: sticky;
+    top: -1px;
   }
 
   a:not(.cta_button) {
-          color: $dark-gray !important;
-          @include transition;
-          &:hover {
-            color: $accent !important;
-          }
-        }
+    color: $dark-gray !important;
+    @include transition;
+    &:hover {
+      color: $accent !important;
+    }
+  }
 
-        .cta-holder, .menu-holder {
+  .cta-holder, .menu-holder {
 
-          vertical-align: top !important;
-        }
+    vertical-align: top !important;
+  }
   .header--top--nav {
     .hs-menu-wrapper > ul {
       overflow: hidden;
@@ -24,7 +24,7 @@
       list-style-type: none;
       margin-bottom: 0;
       .hs-menu-children-wrapper {
-adisplay: none;
+        adisplay: none;
       }
       &:hover {
         overflow: visible;
@@ -123,7 +123,7 @@ adisplay: none;
 @media (min-width: $size-md) {
   .header-menu-wrapper {
     float: right;
-    height: 72px;
+    height: 60px;
     display: block;
   }
   .header--top--nav {
@@ -186,4 +186,14 @@ adisplay: none;
       padding: 0;
     }
   }
+}
+
+.custom-header-v3 {
+  background-color: rgba($white, .95);
+  @include shadow(normal, 0 3px 10px rgba(0, 0, 0, 0.1));
+
+}
+
+.header-logo {
+  padding: 5px 0;
 }

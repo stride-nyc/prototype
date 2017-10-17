@@ -1,13 +1,18 @@
-// (`ㅅ`)づ framework imports
-
-@import "./bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "./bower_components/font-awesome/scss/font-awesome.scss";
-
-// (`ㅅ`)づ global imports
+// (`ㅅ`)づ global rules
 
 @import "variables";
 @import "mixins";
 
-// (`ㅅ`)づ project imports
+// (`ㅅ`)づ project-wide rules
 
-@import "layout";
+@import "hubspot"; // remove on production
+@import "stride";
+
+// (`ㅅ`)づ page-wide rules (to isolate)
+
+@import "revamp"; // index, our work
+// @import "blog"; // blog
+// @import "careers"; // careers
+// @import "how-we-help"; // how we help, podcast
+// @import "podcast"; // podcast
+

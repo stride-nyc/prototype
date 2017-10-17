@@ -1,8 +1,54 @@
-// (\_/)
 // (`ㅅ`)づ base variables
-// (")(")
 
 $prefixes: webkit moz ms o;
 
-$gap: 15px;
-$color-accent: #ccc;
+// (`ㅅ`)づ font variables
+
+$font-text: proxima-nova-condensed,proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+// (`ㅅ`)づ base colors
+
+$white: #fff;
+$black: #000;
+$gray: #707070;
+$light-gray: #a3a3a3;
+$lighter-gray: #d2d6d9;
+$dark-gray: #414141;
+// $rose: #f06449;
+$blue: #4081e7;
+$dark-blue: #3b5998;
+$green: #26b785;
+$light-green: #bada55;
+$red: #f23630;
+$orange: #f7751f;
+
+// (`ㅅ`)づ brand colors
+
+// $primary: $primary;
+$primary: #1585ad;
+$primary2: #337ab7;
+$accent: #f4524d;
+// $secondary: #4cadc9;
+$secondary: #39a0bd;
+// $blue: #39f;
+
+// (`ㅅ`)づ breakpoints
+
+$size-xl: 1170px;
+$size-lg: 1024px;
+$size-md2: 960px;
+$size-md: 768px;
+$size-sm: ($size-md - 1);
+
+// (`ㅅ`)づ layout variables
+
+$gap: 10px;
+$gap2: $gap * 2;
+$gap3: $gap * 3;
+$gap4: $gap * 4;
+$gap5: $gap * 5;
+
+// (`ㅅ`)づ imports
+
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css');
+@import url('//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700%2C900%7CMontserrat%3A400%2C700%7COpen+Sans%3A400%2C700%7CLato%3A900italic%2C900');

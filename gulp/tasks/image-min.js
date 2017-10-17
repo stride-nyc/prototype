@@ -16,7 +16,7 @@ gulp.task("image-min", function () {
         return gulp.src(globalVar.editFolder + "/images/**/*.{png,jpg,jpeg,gif,svg}")
             .pipe(optipng({ optimizationLevel: 3 })())
             .pipe(pngquant({ quality: "65-80", speed: 4 })())
-            .pipe(imageminMozjpeg({ quality: 70 })())
+            // .pipe(imageminMozjpeg({ quality: 70 })())
             .pipe(gulp.dest(globalVar.distFolder + "/images"));
     }
 });

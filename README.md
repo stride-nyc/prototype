@@ -1,67 +1,37 @@
-### `lazy-8/base`
+A copy of existing stride website, with SASS features.
 
-**A Static site generator using Gulp**
+## Content
 
+| Page  | Prototype  |  Staging |
+|---|---|---|
+|Home Page|[Prototype](http://stride-nyc.github.io/site/index.html)|Pending|
+|How We Help|[Prototype](http://stride-nyc.github.io/site/how-we-help.html)|Pending|
+|Our Work|[Prototype](http://stride-nyc.github.io/site/our-work.html)|Pending|
+|Resource Center|[Prototype](http://stride-nyc.github.io/site/resource-center.html)|Pending|
+|Podcast|[Prototype](http://stride-nyc.github.io/site/podcast.html)|Pending|
+|Blog List|[Prototype](http://stride-nyc.github.io/site/blog.html)|Pending|
+|Company|[Prototype](http://stride-nyc.github.io/site/company.html)|Pending|
+|Careers|[Prototype](http://stride-nyc.github.io/site/careers.html)|Pending|
+|Events|[Prototype](http://stride-nyc.github.io/site/events.html)|Pending|
+|Press|[Prototype](http://stride-nyc.github.io/site/press.html)|Pending|
+|Contact|[Prototype](http://stride-nyc.github.io/site/contact.html)|Pending|
 
-## Features
+## TODO
 
-- Converts [Markdown](https://daringfireball.net/projects/markdown/syntax) files to static HTML
-- [Handlebars](http://handlebarsjs.com) templates and partials
-- Sass compiling and minification
-- Css reducing (Uncss)
-- Javascript concatenating and minification
-- Asset copying
-- Image compression
-- HTML compression
-- RSS feed creation
-- Runs a local server that reloads with changes
-- Draft content
-- Creates a distribution folder with all content and assets
-- Publishes distribution folder on gh-pages for quick deploy
+- [ ] hubspot staging environment
+- [x] scrape existing site
+- [x] images, fonts, etc
+- [x] convert CSS to SCSS
+- [x] merge page-specific css
+- [x] color variables
+- [x] color variables, page-specific
+- [ ] isolate page-specific rules
+- [ ] font variables
+- [ ] margin variables
+- [ ] logo redesign
+- [ ] header redesign
+- [ ] button redesign
+- [ ] form redesign
+- [ ] favicon redesign
 
-## Requirements
-
-- [Node](https://nodejs.org/en/)
-- [Gulp](https://gulpjs.com)
-
-## Installation
-
-1. Open terminal
-2. Navigate to folder where your new project will be
-3. Type:
-
-```
-git clone https://github.com/lazy-8/base.git ProjectName
-cd ProjectName
-npm install
-bower install
-gulp
-```
-
-## What's Next?
-
-1. Make your project yours at [`docs/configuration.md`](https://github.com/lazy-8/base/blob/master/docs/configuration.md)
-1. Learn to manage content at [`docs/editing.md`](https://github.com/lazy-8/base/blob/master/docs/editing.md)
-1. Version control at [`docs/version-control.md`](https://github.com/lazy-8/base/blob/master/docs/version-control.md)
-1. Fast publishing at [`docs/publishing.md`](https://github.com/lazy-8/base/blob/master/docs/publishing.md)
-1. Domains at [`docs/domain.md`](https://github.com/lazy-8/base/blob/master/docs/domain.md)
-
-## Frameworks and Integrations
-
-- [`docs/bootstrap.md`](https://github.com/lazy-8/base/blob/master/docs/bootstrap.md)
-- [`docs/fontawesome.md`](https://github.com/lazy-8/base/blob/master/docs/fontawesome.md)
-- [`docs/foundation.md`](https://github.com/lazy-8/base/blob/master/docs/foundation.md)
-- [`docs/animate.md`](https://github.com/lazy-8/base/blob/master/docs/animate.md)
-- [`docs/modernizr.md`](https://github.com/lazy-8/base/blob/master/docs/modernizr.md)
-
-##  Useful Utilities
-
-- If you use Sublime Text, install [`lazy-8/exo`](https://github.com/lazy-8/exo) for a fuckload of snippets to simplify your code
-- If you want to use custom fonts, install [`lazy-8/fontgen`](https://github.com/lazy-8/fontgen) to convert any `ttf` or `otf` font into webfont
-
-## More About the Project
-
-[lazy-8/base](https://github.com/lazy-8/base) is a fork of [ducksoupdev/gulp-site-generator](https://github.com/ducksoupdev/gulp-site-generator).
-
-- Wanna know what's ahead? [`docs/todo.md`](https://github.com/lazy-8/base/blob/master/docs/todo.md)
-- Some cool projects we may or may not integrate at [`docs/reference.md`](https://github.com/lazy-8/base/blob/master/docs/reference.md)
+## Global changes for CSS isolation

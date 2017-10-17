@@ -1,4 +1,10 @@
 .header-container-wrapper {
+  @include media($size-md, min) {
+    position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  }
+
   a:not(.cta_button) {
           color: $dark-gray !important;
           @include transition;

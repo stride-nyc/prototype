@@ -41,3 +41,4 @@ A copy of existing stride website, with SASS features.
 
 - LEARN HOW becomes Learn How
 - on home, remove inline styles from "learn how",m add class `cta-button`
+- id on menu, gotta remove it ( id="cta_button_2136473_c43f87de-374b-4681-a6a9-ba550dae9137")

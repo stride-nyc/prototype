@@ -1,0 +1,16 @@
+a.cta_button {
+  @include transition;
+  cursor: pointer;
+  font-weight: bold; background-color: $accent !important;
+  padding: 15px $gap2 !important;
+  color: $white !important;
+  text-decoration: none;
+  border-radius: $gap3 !important;
+  @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.1));
+  &:hover {
+    background-color: darken($accent, 10%) !important;
+    @include shadow(normal, 0 2px 0 rgba(0, 0, 0, 0.15));
+    }
+}
+
+// a lot of importants because hubspot adds rules to an id, somewhere.

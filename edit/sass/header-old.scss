@@ -1,16 +1,4 @@
 .header-container-wrapper {
-  a:not(.cta_button) {
-          color: $dark-gray !important;
-          @include transition;
-          &:hover {
-            color: $accent !important;
-          }
-        }
-
-        .cta-holder, .menu-holder {
-
-          vertical-align: top !important;
-        }
   .header--top--nav {
     .hs-menu-wrapper > ul {
       overflow: hidden;
@@ -18,7 +6,7 @@
       list-style-type: none;
       margin-bottom: 0;
       .hs-menu-children-wrapper {
-adisplay: none;
+        display: none;
       }
       &:hover {
         overflow: visible;
@@ -31,6 +19,14 @@ adisplay: none;
         a {
           font-weight: 600;
           text-decoration: none;
+        }
+        > a {
+          display: block;
+          color: $dark-gray;
+          line-height: 45px;
+          &:hover {
+            color: $accent;
+          }
         }
         &:first-child > a:before {
           display: none;

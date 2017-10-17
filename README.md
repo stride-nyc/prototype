@@ -38,3 +38,6 @@ A copy of existing stride website, with SASS features.
 - [ ] favicon redesign
 
 ## Global changes for CSS isolation
+
+- LEARN HOW becomes Learn How
+- on home, remove inline styles from "learn how",m add class `cta-button`

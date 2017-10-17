@@ -26,10 +26,11 @@ A copy of existing stride website, with SASS features.
 - [x] color variables
 - [x] color variables, page-specific
 - [x] use 'lazy-8/base' (browsersync, partials)
-- [ ] isolate page-specific rules
+- [x] isolate page-specific rules
 - [ ] generalize 'resource-center.scss', `our-work.scss`
 - [x] font variables
 - [x] margin variables
+- [ ] header scss
 - [ ] logo redesign
 - [ ] header redesign
 - [ ] button redesign

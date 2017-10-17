@@ -9,12 +9,12 @@
 @import "hubspot"; // remove on production
 @import "stride";
 
-// (`ㅅ`)づ page-wide rules (to isolate)
+// (`ㅅ`)づ page-wide rules
 
-@import "home"; // index
-@import "our-work"; // index
-@import "blog"; // blog
-@import "careers"; // careers
-@import "how-we-help"; // how we help, podcast
-// @import "podcast"; // podcast
-// @import "resource-center" // resource-center, no colors still
+@import "home";
+@import "our-work";
+@import "blog";
+@import "careers";
+@import "how-we-help";
+@import "podcast";
+@import "resource-center";

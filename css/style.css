@@ -15185,8 +15185,7 @@ body.helloBar #helloBar {
             line-height: 24px;
             padding: 10px; }
             .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children .hs-menu-children-wrapper li a:hover {
-              background-color: #1585ad;
-              color: #fff !important; }
+              background-color: #eee; }
       .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a {
         padding-right: 0;
         margin-right: 0;
@@ -15290,22 +15289,22 @@ a.cta_button {
   cursor: pointer;
   font-weight: bold;
   background-color: #f4524d;
-  padding: 13px 25px;
+  padding: 15px 25px;
   color: #fff;
   text-decoration: none;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
-  -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
-  -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
-  -o-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.12); }
+  -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1); }
   a.cta_button:hover {
     background-color: #f1231d;
     -webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
@@ -15313,11 +15312,11 @@ a.cta_button {
     -ms-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     -o-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
-    -moz-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
-    -ms-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
-    -o-box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18);
-    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.18); }
+    -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    -ms-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    -o-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15); }
 
 .homepage-revamp .hero--container {
   background-image: url("http://www.stridenyc.com/hubfs/StrideHero-min-2-min.jpg?t=1491589394033");

@@ -15275,10 +15275,22 @@ body.helloBar #helloBar {
 
 .header-logo {
   padding: 0;
-  background-color: #1585ad;
   height: 60px; }
-  .header-logo * {
-    display: none; }
+  .header-logo a {
+    background-image: url("../images/stride-logo.svg");
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    width: 150px;
+    background-position: 15px center;
+    background-color: #1585ad;
+    padding-top: 20px;
+    height: 60px;
+    display: block;
+    padding-left: 60px; }
+    .header-logo a:hover {
+      background-color: #39a0bd; }
+    .header-logo a img {
+      display: none; }
 
 a.cta_button {
   -webkit-transition: all 300ms ease-out;
@@ -15292,11 +15304,11 @@ a.cta_button {
   padding: 15px 25px;
   color: #fff;
   text-decoration: none;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-  border-radius: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;

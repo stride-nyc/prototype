@@ -15160,7 +15160,7 @@ body.helloBar #helloBar {
         background-color: #fff;
         overflow: auto;
         max-height: 80vh;
-        border-bottom: solid 1px #f4524d;
+        border-bottom: solid 1px #1585ad;
         -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
         -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
         -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.07);
@@ -15178,14 +15178,14 @@ body.helloBar #helloBar {
         .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children .hs-menu-children-wrapper li {
           text-align: left;
           padding: 0;
-          border-left: solid 1px #f4524d;
-          border-right: solid 1px #f4524d; }
+          border-left: solid 1px #1585ad;
+          border-right: solid 1px #1585ad; }
           .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children .hs-menu-children-wrapper li a {
             display: block;
             line-height: 24px;
             padding: 10px; }
             .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children .hs-menu-children-wrapper li a:hover {
-              background-color: #f4524d;
+              background-color: #1585ad;
               color: #fff !important; }
       .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a {
         padding-right: 0;
@@ -15267,7 +15267,7 @@ body.helloBar #helloBar {
 
 .custom-header-v3 {
   background-color: #fff;
-  border-bottom: solid 1px #f4524d;
+  border-bottom: solid 1px #1585ad;
   -webkit-box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.07);
   -ms-box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.07);
@@ -15276,7 +15276,7 @@ body.helloBar #helloBar {
 
 .header-logo {
   padding: 0;
-  background-color: #f4524d;
+  background-color: #1585ad;
   height: 60px; }
   .header-logo * {
     display: none; }

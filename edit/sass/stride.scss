@@ -1349,8 +1349,6 @@ ul.unstyled, ol.unstyled {
   padding-top: $gap2;
 }
 
-
-
 .header-right-content {
   position: relative;
 }
@@ -1358,6 +1356,12 @@ ul.unstyled, ol.unstyled {
 .custom-menu-primary.js-enabled {
   padding-right: 44px;
   transition: padding .5s ease;
+}
+
+.content--holder {
+  .cta_button {
+    display: inline-block;
+  }
 }
 
 .header-google-search {

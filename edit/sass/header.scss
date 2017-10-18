@@ -14,9 +14,13 @@
   }
 
   .cta-holder, .menu-holder {
-
     vertical-align: top !important;
+
   }
+  .menu-holder {
+    display: block;
+  }
+
   .header--top--nav {
     .hs-menu-wrapper > ul {
       overflow: hidden;
@@ -24,7 +28,7 @@
       list-style-type: none;
       margin-bottom: 0;
       .hs-menu-children-wrapper {
-        adisplay: none;
+        display: none;
       }
       &:hover {
         overflow: visible;
@@ -50,14 +54,13 @@
             right: -12px;
             opacity: 0;
             padding: 0;
-            padding-top: 0;
-            min-width: 220px;
+            padding-top: 17px;
+            min-width: 200px;
             background-color: $white;
             overflow: auto;
             max-height: 80vh;
-            -moz-box-shadow: 0 5px $gap 5px rgba(0, 0, 0, 0.15);
-            -webkit-box-shadow: 0 5px $gap 5px rgba(0, 0, 0, 0.15);
-            box-shadow: 0 5px $gap 5px rgba(0, 0, 0, 0.15);
+            border-bottom: solid 1px $accent;
+            @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.07));
             overflow: hidden;
             &::-webkit-scrollbar {
               width: 12px;
@@ -72,11 +75,17 @@
             }
             li {
               text-align: left;
-              padding: 0 4px;
+              padding: 0;
+              border-left: solid 1px $accent;
+              border-right: solid 1px $accent;
               a {
                 display: block;
                 line-height: 24px;
-                padding: 8px;
+                padding: $gap;
+                &:hover {
+                  background-color: $accent;
+                  color: $white !important;
+                }
               }
             }
           }
@@ -87,13 +96,11 @@
             &:after {
               content: '\f0d7';
               font-family: FontAwesome;
-              padding-left: $gap;
+              font-size: 10px;
+              padding-left: 5px;
               background-color: transparent !important;
               margin-left: 0;
-              margin-right: 15px;
-            }
-            &:hover:after {
-              content: '\f0d8';
+              margin-right: 10px;
             }
           }
         }
@@ -123,7 +130,7 @@
 @media (min-width: $size-md) {
   .header-menu-wrapper {
     float: right;
-    height: 60px;
+    height: $header-height;
     display: block;
   }
   .header--top--nav {
@@ -189,11 +196,17 @@
 }
 
 .custom-header-v3 {
-  background-color: rgba($white, .95);
-  @include shadow(normal, 0 3px 10px rgba(0, 0, 0, 0.1));
+  background-color: $white;
+    border-bottom: solid 1px $accent;
+    @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
 
-}
+ }
 
 .header-logo {
-  padding: 5px 0;
+  padding: 0;
+  background-color: $accent;
+  height: $header-height;
+  * {
+    display: none;
+  }
 }

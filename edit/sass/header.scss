@@ -59,7 +59,7 @@
             background-color: $white;
             overflow: auto;
             max-height: 80vh;
-            border-bottom: solid 1px $accent;
+            border-bottom: solid 1px $primary;
             @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.07));
             overflow: hidden;
             &::-webkit-scrollbar {
@@ -76,14 +76,14 @@
             li {
               text-align: left;
               padding: 0;
-              border-left: solid 1px $accent;
-              border-right: solid 1px $accent;
+              border-left: solid 1px $primary;
+              border-right: solid 1px $primary;
               a {
                 display: block;
                 line-height: 24px;
                 padding: $gap;
                 &:hover {
-                  background-color: $accent;
+                  background-color: $primary;
                   color: $white !important;
                 }
               }
@@ -197,14 +197,14 @@
 
 .custom-header-v3 {
   background-color: $white;
-    border-bottom: solid 1px $accent;
+    border-bottom: solid 1px $primary;
     @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
 
  }
 
 .header-logo {
   padding: 0;
-  background-color: $accent;
+  background-color: $primary;
   height: $header-height;
   * {
     display: none;

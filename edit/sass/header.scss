@@ -83,8 +83,7 @@
                 line-height: 24px;
                 padding: $gap;
                 &:hover {
-                  background-color: $primary;
-                  color: $white !important;
+                  background-color: #eee;
                 }
               }
             }
@@ -202,11 +201,27 @@
 
  }
 
+$diff: 14px;
 .header-logo {
   padding: 0;
-  background-color: $primary;
+height: $header-height;
+
+  a {
+    background-image: url("../images/stride-logo.svg");
+    background-repeat: no-repeat;
+    background-size: 110px 110px;
+    width: 150px;
+    background-position: 15px center;
+    background-color: $primary;
+    &:hover {
+      background-color: $secondary;
+    }
+    padding-top: 20px;
   height: $header-height;
-  * {
+  display: block;
+  padding-left: $header-height;
+  img {
     display: none;
+  }
   }
 }

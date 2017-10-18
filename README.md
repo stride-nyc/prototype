@@ -43,3 +43,4 @@ A copy of existing stride website, with SASS features.
 - on home, remove inline styles from "learn how",m add class `cta-button`
 - id on menu, gotta remove it ( id="cta_button_2136473_c43f87de-374b-4681-a6a9-ba550dae9137")
 - remove id, all stuff on "earn More about the Stride Difference" on first page.
+- get ebook now

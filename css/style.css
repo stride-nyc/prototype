@@ -8773,7 +8773,7 @@ video {
   #calroot select {
     min-height: 0 !important;
     padding: 1px 2px !important;
-    font-family: "Lucida Grande","Lucida Sans Unicode","Bitstream Vera Sans","Trebuchet MS",Verdana,sans-serif !important;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 10px !important;
     line-height: 18px !important;
     font-weight: normal !important; }
@@ -9333,7 +9333,7 @@ body {
   padding: 0;
   background: #fff;
   color: #414141;
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
   -webkit-font-smoothing: antialiased;
@@ -9347,7 +9347,7 @@ body {
 
 a {
   color: #39a0bd;
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 400;
@@ -9367,7 +9367,7 @@ hr {
   text-shadow: none; }
 
 p {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 400;
@@ -9388,7 +9388,7 @@ sub {
   bottom: -0.25em; }
 
 h1 {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 300;
@@ -9400,7 +9400,7 @@ h1 {
   text-transform: uppercase; }
 
 h2 {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-size: 36px;
@@ -9412,7 +9412,7 @@ h2 {
   color: #414141; }
 
 h3 {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: normal;
@@ -9429,7 +9429,7 @@ h4 {
   font-weight: 300;
   font-size: 18px;
   max-width: 600px;
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: none;
@@ -9529,7 +9529,7 @@ ul.unstyled, ol.unstyled {
   line-height: 1.5;
   font-size: 16px !important;
   font-weight: 400;
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   height: 31px;
@@ -9661,7 +9661,7 @@ ul.unstyled, ol.unstyled {
   font-size: 12px; }
 
 .custom-footer h3 {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: capitalize;
@@ -9675,7 +9675,7 @@ ul.unstyled, ol.unstyled {
   text-align: center; }
 
 .custom-footer p {
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 400;
@@ -10230,7 +10230,7 @@ span.hs-rss-posted-at {
   text-overflow: ellipsis;
   margin: 10px 0; }
   .sample-blog #hubspot-author_data a.author-link {
-    font-family: sans-serif,'Helvetica Neue',Helvetica,Arial;
+    font-family: Roboto;
     font-style: normal;
     color: #707070;
     font-size: 14px;
@@ -10512,7 +10512,7 @@ span.hs-rss-posted-at {
   text-align: center;
   width: 23px;
   height: 23px;
-  font-family: Arial;
+  font-family: Roboto;
   right: 5px; }
   .sample-blog span.custom_listing_comments i.fa.fa-comment {
     font-size: 23px;
@@ -10561,7 +10561,7 @@ span.hs-rss-posted-at {
   text-transform: uppercase;
   font-style: normal;
   color: #414141;
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 300;
@@ -10589,7 +10589,7 @@ span.hs-rss-posted-at {
     margin: 0;
     padding: 0;
     text-transform: none;
-    font-family: "Proxima Nova",sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-size: 36px;
@@ -10670,7 +10670,7 @@ span.hs-rss-posted-at {
 
 .blog .hs-breadcrumb-wrapper {
   border-bottom: 1px solid transparent;
-  font-family: sans-serif,'Helvetica Neue',Helvetica,Arial;
+  font-family: Roboto;
   text-transform: none;
   font-weight: normal;
   font-style: normal;
@@ -10814,7 +10814,7 @@ table.custom-table {
     padding-left: 10px; }
 
 .blog.events .post-header .hs-event-address p {
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
@@ -10886,7 +10886,7 @@ table.custom-table td:nth-child(3).map {
 .blog.events.hs-blog-listing .post-body h4, .blog.events.hs-blog-listing .post-body h2 {
   padding: 0;
   padding-left: 15px;
-  font-family: "Proxima Nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: 400;
@@ -10946,7 +10946,7 @@ body .hs-form-field > label {
 
 body input[type="text"], body input[type="password"], body input[type="datetime"], body input[type="datetime-local"], body input[type="date"], body input[type="month"], body input[type="time"], body input[type="week"], body input[type="number"], body input[type="email"], body input[type="url"], body input[type="search"], body input[type="tel"], body input[type="color"], body input[type="file"] {
   width: 100%;
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 13px;
   width: 100%;
@@ -10960,7 +10960,7 @@ body input[type="text"], body input[type="password"], body input[type="datetime"
 
 body textarea, body select {
   width: 100%;
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-size: 13px;
   width: 100%;
@@ -11000,7 +11000,7 @@ body form.hs-form fieldset {
 body .hs-button.primary {
   cursor: pointer;
   -webkit-appearance: none;
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   text-decoration: none !important;
   background-color: #f4524d;
@@ -11018,7 +11018,7 @@ body .hs-button.primary {
 body input[type="submit"], body input[type="button"] {
   cursor: pointer;
   -webkit-appearance: none;
-  font-family: 'Proxima Nova',sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   text-decoration: none !important;
   background-color: #f4524d;
@@ -11211,7 +11211,7 @@ a.btn {
 .site-page .body-container .hs_cos_wrapper_type_rss_listing {
   padding: 35px 4% 20px; }
   .site-page .body-container .hs_cos_wrapper_type_rss_listing h3 {
-    font-family: "Proxima Nova",sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-size: 36px;
@@ -11350,7 +11350,7 @@ a.hs-rss-title span {
   .emodal p {
     text-align: left !important;
     margin: 5px 0;
-    font-family: "proxima-nova",sans-serif !important;
+    font-family: Roboto;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: 400 !important;
@@ -12000,7 +12000,7 @@ select.hs-input {
 
 .tt_theme_speech blockquote:before {
   content: "\f10d";
-  font-family: FontAwesome;
+  font-family: "FontAwesome", sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
@@ -12215,7 +12215,7 @@ ul.hs-error-msgs.inputs-list label {
   font-size: 0; }
 
 .lp1 {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Roboto;
   background-color: #fff;
   font-size: 16px; }
   .lp1 .header-container-wrapper {
@@ -12432,7 +12432,7 @@ ul.hs-error-msgs.inputs-list label {
     max-width: 522px; }
 
 .lp2 {
-  font-family: 'Roboto',sans-serif;
+  font-family: Roboto;
   font-weight: 400;
   background-color: #fff;
   color: #fff;
@@ -12505,7 +12505,7 @@ ul.hs-error-msgs.inputs-list label {
       font-weight: 300; }
       .lp2 .row1-full p span {
         font-size: 20px;
-        font-family: Arial; }
+        font-family: Roboto; }
     .lp2 .row1-full a {
       color: #fff;
       width: 100%;
@@ -13472,7 +13472,7 @@ body.helloBar #helloBar {
   text-transform: uppercase;
   text-align: center;
   cursor: pointer;
-  font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   z-index: 99; }
   #resultsWrapper .modalClose:after {
     content: "";
@@ -13540,7 +13540,7 @@ body.helloBar #helloBar {
       background: transparent;
       color: #fff;
       font-size: 22px !important;
-      font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+      font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
       font-weight: 300;
       line-height: 1.5em;
       letter-spacing: .1em;
@@ -13688,13 +13688,13 @@ body.helloBar #helloBar {
     background-size: 25px 25px; }
   #hsg-header.hsg-header__blog .hsg-search-modal .search-modal__headline {
     font-weight: 400;
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: .06em;
     color: #d2d6d9;
     font-size: 24px;
     margin-bottom: 0; }
   #hsg-header.hsg-header__blog .hsg-search-modal .search-modal__tip {
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: .06em;
     margin-top: 5px;
     font-size: 14px;
@@ -13714,7 +13714,7 @@ body.helloBar #helloBar {
     border-bottom: 1px solid #4081e7;
     width: 100%;
     letter-spacing: .06em;
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif; }
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 #hsg-header.hsg-header__blog .hsg-header__cta-wrapper, #hsg-header.hsg-header__blog .hsg-header__upper {
   display: none; }
@@ -13779,7 +13779,7 @@ body.helloBar #helloBar {
   .hsg-footer.hsg-footer__wrapper h3 {
     color: #fff;
     font-size: 22px !important;
-    font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 100; }
   .hsg-footer.hsg-footer__wrapper ul li {
     line-height: 1.5; }
@@ -14049,7 +14049,7 @@ body.helloBar #helloBar {
 .hsg-footer-2016.hsg-footer__wrapper h3 {
   color: #fff;
   font-size: 18px !important;
-  font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
 .hsg-footer-2016.hsg-footer__wrapper ul {
@@ -14304,7 +14304,7 @@ body.helloBar #helloBar {
     letter-spacing: 1.5px;
     text-transform: uppercase;
     text-align: center;
-    font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     z-index: 99; }
     #resultsWrapper .modalClose:after {
       content: "";
@@ -14369,7 +14369,7 @@ body.helloBar #helloBar {
         outline: 0;
         color: #fff !important;
         font-size: 22px;
-        font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
         font-weight: 300;
         line-height: 1.5em;
         letter-spacing: .1em;
@@ -14519,13 +14519,13 @@ body.helloBar #helloBar {
     background-size: 25px 25px; }
   #hsg-header.hsg-header__blog .hsg-search-modal .search-modal__headline {
     font-weight: 400;
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: .06em;
     color: #d2d6d9;
     font-size: 24px;
     margin-bottom: 0; }
   #hsg-header.hsg-header__blog .hsg-search-modal .search-modal__tip {
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: .06em;
     margin-top: 5px;
     font-size: 14px;
@@ -14545,7 +14545,7 @@ body.helloBar #helloBar {
     border-bottom: 1px solid #4081e7;
     width: 100%;
     letter-spacing: .06em;
-    font-family: proxima-nova-condensed, proxima-nova, Helvetica Neue, Helvetica, Arial, sans-serif; }
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 #hsg-header.hsg-header__blog .hsg-header__cta-wrapper, #hsg-header.hsg-header__blog .hsg-header__upper {
   display: none; }
@@ -14610,7 +14610,7 @@ body.helloBar #helloBar {
   .hsg-footer.hsg-footer__wrapper h3 {
     color: #fff;
     font-size: 22px !important;
-    font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 100; }
   .hsg-footer.hsg-footer__wrapper ul li {
     line-height: 1.5; }
@@ -14880,7 +14880,7 @@ body.helloBar #helloBar {
 .hsg-footer-2016.hsg-footer__wrapper h3 {
   color: #fff;
   font-size: 18px !important;
-  font-family: proxima-nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: 300; }
 
 .hsg-footer-2016.hsg-footer__wrapper ul {
@@ -15192,7 +15192,7 @@ body.helloBar #helloBar {
         padding-right: 5px; }
         .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a:after {
           content: '\f0d7';
-          font-family: FontAwesome;
+          font-family: "FontAwesome", sans-serif;
           font-size: 10px;
           padding-left: 5px;
           background-color: transparent !important;
@@ -15288,15 +15288,16 @@ body.helloBar #helloBar {
     .header-logo a:hover svg * {
       fill: #39a0bd; }
 
-a.cta_button {
+.cta_button {
   -webkit-transition: all 300ms ease-out;
   -moz-transition: all 300ms ease-out;
   -ms-transition: all 300ms ease-out;
   -o-transition: all 300ms ease-out;
   transition: all 300ms ease-out;
   cursor: pointer;
-  font-weight: bold;
+  font-weight: normal !important;
   background-color: #f4524d;
+  display: inline-block !important;
   padding: 15px 25px;
   color: #fff;
   text-decoration: none;
@@ -15313,8 +15314,9 @@ a.cta_button {
   -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1); }
-  a.cta_button:hover {
+  .cta_button:hover {
     background-color: #f1231d;
+    color: #fff !important;
     -webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     -moz-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
     -ms-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
@@ -15325,6 +15327,17 @@ a.cta_button {
     -ms-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
     -o-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15); }
+
+input:not([type="submit"]), select, textarea {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: solid 1px #a3a3a3 !important; }
 
 .homepage-revamp .hero--container {
   background-image: url("http://www.stridenyc.com/hubfs/StrideHero-min-2-min.jpg?t=1491589394033");
@@ -15455,8 +15468,7 @@ a.cta_button {
       text-transform: uppercase;
       word-break: normal; }
   .homepage-revamp .difference--section .content--holder {
-    text-align: left;
-    font-size: 18px; }
+    text-align: left; }
     .homepage-revamp .difference--section .content--holder a {
       font-weight: bold; }
 
@@ -15549,7 +15561,7 @@ a.cta_button {
                 .homepage-revamp .why--section .hs_cos_wrapper_type_widget_container > .hs_cos_wrapper_type_custom_widget > .cm-two-column-left-image .page-center > .row-fluid > div > div > .column.left:before {
                   content: '\f279';
                   display: none;
-                  font-family: "FontAwesome",sans-serif;
+                  font-family: "FontAwesome", sans-serif;
                   color: #1585ad; }
 
 .homepage-revamp .testimonials--panel--section .widget-type-widget_container {
@@ -16135,7 +16147,7 @@ a.cta_button {
   margin-bottom: 20px; }
   .blog #content-search input {
     border: 0;
-    font-family: "Arial";
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
     margin-bottom: 0;
     margin-top: -5px !important; }
@@ -16197,7 +16209,7 @@ a.cta_button {
   text-transform: uppercase; }
 
 .blog .post--side-menu > ul > li .menu--name:after {
-  font-family: "FontAwesome",sans-serif;
+  font-family: "FontAwesome", sans-serif;
   content: "\f0d7";
   font-size: 12px;
   padding-left: 6px;
@@ -16280,7 +16292,7 @@ a.cta_button {
     margin-top: 0;
     outline: 0;
     box-shadow: none;
-    font-family: 'proxima-nova',sans-serif;
+    font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #707070;
     font-size: 16px;
     line-height: 1.25em;
@@ -16541,7 +16553,7 @@ a.cta_button {
   display: inline-block; }
 
 .blog.communityy .community-listing .hs-rss-item-text a.hs-rss-title span {
-  font-family: "proxima-nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   text-transform: normal;
@@ -18930,7 +18942,7 @@ a.cta_button {
   color: #fff !important;
   font-size: 16px;
   line-height: 1.5;
-  font-family: "proxima-nova",sans-serif;
+  font-family: "Proxima Nova", sans-serif, Helvetica Neue, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   font-weight: bold;

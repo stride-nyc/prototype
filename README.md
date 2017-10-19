@@ -16,6 +16,16 @@ A copy of existing stride website, with SASS features.
 |Press|[Prototype](http://stride-nyc.github.io/site/press/)|Pending|
 |Contact|[Prototype](http://stride-nyc.github.io/site/contact/)|Pending|
 
+## Modules
+
+|Name|Status|Scope|
+|---|---|---|
+|Header|Prototype|persistent, flat logo, better menu|
+|Forms|Prototype|button, input, brand color, consolidation|
+|Titles|Pending|Brand font for titles, better grid for callouts|
+|Header 2|Pending|better mobile view, animation|
+|?|?|detect other modules, define priority|
+
 ## TODO
 
 - [ ] hubspot staging environment

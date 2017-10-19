@@ -15277,17 +15277,16 @@ body.helloBar #helloBar {
   padding: 0;
   height: 60px; }
   .header-logo a {
-    width: 150px;
-    background-color: #1585ad;
     height: 60px;
     display: block; }
     .header-logo a svg {
-      width: 150px;
+      width: 100px;
       height: 60px;
-      padding: 10px 0;
-      fill: red !important; }
-    .header-logo a:hover {
-      background-color: #39a0bd; }
+      padding: 10px 0; }
+      .header-logo a svg * {
+        fill: #1585ad; }
+    .header-logo a:hover svg * {
+      fill: #39a0bd; }
 
 a.cta_button {
   -webkit-transition: all 300ms ease-out;

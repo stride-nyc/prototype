@@ -1,7 +1,7 @@
 .cta_button {
   @include transition;
   cursor: pointer;
-  font-weight: normal !important;
+  font-weight: 600;
   background-color: $accent;
   display: inline-block !important;
   padding: 15px 25px;

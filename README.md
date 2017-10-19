@@ -22,8 +22,9 @@ A copy of existing stride website, with SASS features.
 |---|---|---|
 |Header|Prototype|persistent, flat logo, better menu|
 |Forms|Prototype|button, input, brand color, consolidation|
-|Titles|Pending|Brand font for titles, better grid for callouts|
-|Header 2|Pending|better mobile view, animation|
+|Titles|Suggested|Brand font for titles, better grid for callouts|
+|Client Logos|Suggested|updating client logos: vector, scalable|
+|Header 2|Suggested|better mobile view, animation|
 |?|?|detect other modules, define priority|
 
 ## TODO

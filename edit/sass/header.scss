@@ -102,7 +102,7 @@
             padding-right: 5px;
             &:after {
               content: '\f0d7';
-              font-family: FontAwesome;
+              font-family: $font-icon;
               font-size: 10px;
               padding-left: 5px;
               background-color: transparent !important;

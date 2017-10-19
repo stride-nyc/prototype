@@ -6748,7 +6748,7 @@ body.helloBar #helloBar {
                 .homepage-revamp .why--section .hs_cos_wrapper_type_widget_container > .hs_cos_wrapper_type_custom_widget > .cm-two-column-left-image .page-center > .row-fluid > div > div > .column.left:before {
                   content: '\f279';
                   display: none;
-                  font-family: "FontAwesome",sans-serif;
+                  font-family: $font-icon;
                   color: #1585ad; }
 .homepage-revamp .testimonials--panel--section .widget-type-widget_container {
   display: block; }

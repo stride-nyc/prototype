@@ -36,7 +36,7 @@
     margin-bottom: $gap2;
     input {
       border: 0;
-      font-family: "Arial";
+      font-family: $font-text;
       font-size: 16px;
       margin-bottom: 0;
       margin-top: -5px !important;
@@ -109,7 +109,7 @@
         text-transform: uppercase;
       }
       .menu--name:after {
-        font-family: "FontAwesome",sans-serif;
+        font-family: $font-icon;
         content: "\f0d7";
         font-size: 12px;
         padding-left: 6px;
@@ -203,7 +203,7 @@
         margin-top: 0;
         outline: 0;
         box-shadow: none;
-        font-family: 'proxima-nova',sans-serif;
+        font-family: $font-text;
         color: $gray;
         font-size: 16px;
         line-height: 1.25em;
@@ -529,7 +529,7 @@
         display: inline-block;
       }
       .hs-rss-item-text a.hs-rss-title span {
-        font-family: "proxima-nova",sans-serif;
+        font-family: $font-text;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
         text-transform: normal;

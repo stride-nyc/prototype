@@ -76,7 +76,7 @@
             padding-right: 5px;
             &:after {
               content: '\f0d7';
-              font-family: FontAwesome;
+              font-family: $font-icon;
               padding-left: $gap;
               background-color: transparent !important;
               margin-left: 0;

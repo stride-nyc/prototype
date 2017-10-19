@@ -1,7 +1,9 @@
-a.cta_button {
+.cta_button {
   @include transition;
   cursor: pointer;
-  font-weight: bold; background-color: $accent;
+  font-weight: normal !important;
+  background-color: $accent;
+  display: inline-block !important;
   padding: 15px 25px;
   color: $white;
   text-decoration: none;
@@ -9,9 +11,15 @@ a.cta_button {
   @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.1));
   &:hover {
     background-color: darken($accent, 10%);
+    color: $white !important;
     @include shadow(text, 0 1px 0 rgba(0, 0, 0, 0.5));
     @include shadow(normal, 0 2px 0 rgba(0, 0, 0, 0.15));
     }
+}
+
+input:not([type="submit"]), select, textarea {
+  @include radius(normal, 3px);
+  border: solid 1px $light-gray !important;
 }
 
 // a lot of importants because hubspot adds rules to an id, somewhere.

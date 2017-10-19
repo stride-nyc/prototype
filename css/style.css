@@ -15265,7 +15265,7 @@ body.helloBar #helloBar {
       padding: 0; } }
 
 .custom-header-v3 {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.95);
   border-bottom: solid 1px #1585ad;
   -webkit-box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0px 3px 0 rgba(0, 0, 0, 0.07);
@@ -15277,20 +15277,17 @@ body.helloBar #helloBar {
   padding: 0;
   height: 60px; }
   .header-logo a {
-    background-image: url("../images/stride-logo.svg");
-    background-repeat: no-repeat;
-    background-size: 110px 110px;
     width: 150px;
-    background-position: 15px center;
     background-color: #1585ad;
-    padding-top: 20px;
     height: 60px;
-    display: block;
-    padding-left: 60px; }
+    display: block; }
+    .header-logo a svg {
+      width: 150px;
+      height: 60px;
+      padding: 10px 0;
+      fill: red !important; }
     .header-logo a:hover {
       background-color: #39a0bd; }
-    .header-logo a img {
-      display: none; }
 
 a.cta_button {
   -webkit-transition: all 300ms ease-out;

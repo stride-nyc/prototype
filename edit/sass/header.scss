@@ -50,6 +50,7 @@
       }
       @include media($size-md, max) {
       margin: $header-height 0 10px 0;
+      @include clearfix;
     }
     @media screen and (max-width: $size-md) and (min-width: 400px) {
     & > li {

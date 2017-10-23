@@ -15,6 +15,9 @@
       background-color: white;
     }
   }
+  .header-logo {
+    padding-left: $gap;
+  }
   a:not(.cta_button) {
     color: $dark-gray !important;
     @include transition;
@@ -41,10 +44,19 @@
 
   .header--top--nav {
     .hs-menu-wrapper > ul {
-      overflow: hidden;
-      padding-right: $gap;
       list-style-type: none;
-      margin-bottom: 0;
+      @include media($size-md, min) {
+        margin: $header-height 5px 0 0;
+      }
+      @include media($size-md, max) {
+      margin: $header-height 0 10px 0;
+    }
+    @media screen and (max-width: $size-md) and (min-width: 400px) {
+    & > li {
+      width: 50%;
+    }
+  }
+
       .hs-menu-children-wrapper {
         display: none;
       }
@@ -54,8 +66,8 @@
           display: block;
         }
       }
-      > li {
-        display: inline-block;
+      & > li {
+display: inline-block;
         a {
           font-weight: 600;
           text-decoration: none;
@@ -149,6 +161,7 @@
   }
   .cta-holder .hs-cta-wrapper a {
     font-size: 14px;
+    margin-top: $header-height;
   }
 }
 
@@ -165,7 +178,6 @@
     display: inline-block;
     vertical-align: middle;
     position: relative;
-    top: 50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
   }
@@ -182,20 +194,13 @@
     padding-left: $gap2 !important;
   }
   .custom-header-v3 {
-    .menu-holder {
-      ul {
-        width: 180px;
-        margin: $gap3 0 !important;
-      }
-      position: relative;
-      top: $gap2;
-    }
     .header-logo {
       float: left !important;
     }
     .header-right-content {
-      float: right !important;
-    }
+      display: block;
+      width: 100%;
+      }
     .mobile-trigger {
       position: absolute;
       top: 0;
@@ -249,11 +254,12 @@
     display: inline-block !important;
     cursor: pointer;
     position: absolute;
-    top: -53px;
-    right: 14px;
+
+    padding: 0;
+    padding-top: 14px;
+    right: $gap;
     width: auto;
     height: auto;
-    padding: 0;
     font-size: 16px;
     font-weight: normal;
     text-align: left;
@@ -264,9 +270,7 @@
       border-color: transparent;
     }
      i {
-      display: inline;
       position: relative;
-      top: -4px;
       &:before, &:after {
         position: absolute;
         content: "";

@@ -20,9 +20,10 @@ A copy of existing stride website, with SASS features.
 
 |Name|Status|Scope|
 |---|---|---|
-|Header|Prototype|persistent, flat logo, better menu|
+|Header|[Prototype](http://stride-nyc.github.io/site/module-header/)|persistent, flat logo, better menu|
 |Forms|Prototype|button, input, brand color, consolidation|
 |Footer|Pending|menu grid, padding, update logo|
+|Color Studies|Pending|New colors, maybe?|
 |Titles|Suggested|Brand font for titles, better grid for callouts|
 |Client Logos|Suggested|updating client logos: vector, scalable|
 |Header 2|Suggested|better mobile view, animation|
@@ -46,6 +47,7 @@ A copy of existing stride website, with SASS features.
 - [x] logo redesign
 - [x] header redesign
 - [x] button redesign
+- [x] modules, isolate
 - [ ] header, mobile
 - [ ] form redesign
 - [ ] favicon redesign

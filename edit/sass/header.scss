@@ -54,6 +54,7 @@
     @media screen and (max-width: $size-md) and (min-width: 400px) {
     & > li {
       width: 50%;
+      float: left;
     }
   }
 

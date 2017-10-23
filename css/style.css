@@ -15071,7 +15071,8 @@ body.helloBar #helloBar {
       margin: 60px 5px 0 0; } }
   @media screen and (max-width: 768px) {
     .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul {
-      margin: 60px 0 10px 0;
+      margin: 10px 30px;
+      margin-top: 0;
       zoom: 1; }
       .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul:before, .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul:after {
         display: table;
@@ -15144,14 +15145,20 @@ body.helloBar #helloBar {
         padding-right: 0;
         margin-right: 0;
         padding-right: 5px; }
-        .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a:after {
-          content: '\f0d7';
-          font-family: "FontAwesome", sans-serif;
-          font-size: 10px;
-          padding-left: 5px;
-          background-color: transparent !important;
-          margin-left: 0;
-          margin-right: 10px; }
+        @media screen and (min-width: 768px) {
+          .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a:after {
+            content: '\f0d7';
+            font-family: "FontAwesome", sans-serif;
+            font-size: 10px;
+            padding-left: 5px;
+            background-color: transparent !important;
+            margin-left: 0;
+            margin-right: 10px; } }
+        @media screen and (max-width: 768px) {
+          .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li.hs-item-has-children > a {
+            pointer-events: none;
+            cursor: default;
+            color: #a3a3a3 !important; } }
     .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li:hover .hs-menu-children-wrapper {
       opacity: 1;
       z-index: 9999; }
@@ -15194,7 +15201,7 @@ body.helloBar #helloBar {
     z-index: 9999;
     padding-left: 20px !important; }
   .custom-header-v3 .header-logo {
-    float: left !important; }
+    display: inline-block; }
   .custom-header-v3 .header-right-content {
     display: block;
     width: 100%; }
@@ -15224,7 +15231,12 @@ body.helloBar #helloBar {
       height: 60px;
       padding: 10px 0; }
       .header-logo a svg * {
-        fill: #1585ad; }
+        fill: #1585ad;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
     .header-logo a:hover svg * {
       fill: #39a0bd; }
 
@@ -15234,7 +15246,7 @@ body.helloBar #helloBar {
     cursor: pointer;
     position: absolute;
     padding: 0;
-    padding-top: 14px;
+    margin-top: -45px;
     right: 10px;
     width: auto;
     height: auto;

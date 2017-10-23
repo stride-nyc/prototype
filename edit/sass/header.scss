@@ -4,13 +4,17 @@
     position: sticky;
     top: -1px;
     .custom-header-v3 {
-  background-color: rgba($white, .95);
-    border-bottom: solid 1px $primary;
-    @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
+      background-color: rgba($white, .95);
+      border-bottom: solid 1px $primary;
+      @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
 
- }
+    }
   }
-
+  @include media($size-md, max) {
+    .custom-header-v3 {
+      background-color: white;
+    }
+  }
   a:not(.cta_button) {
     color: $dark-gray !important;
     @include transition;
@@ -68,28 +72,30 @@
             right: -12px;
             opacity: 0;
             padding: 0;
+            @include media($size-md, min) {
             padding-top: 17px;
+          }
             min-width: 200px;
             background-color: $white;
             overflow: auto;
             max-height: 80vh;
             @include media($size-md, min) {
-            border-bottom: solid 1px $primary;
-            @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.07));
-            li {
+              border-bottom: solid 1px $primary;
+              @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.07));
+              li {
 
-              border-left: solid 1px $primary;
-              border-right: solid 1px $primary;
-              a {
-                display: block;
-                line-height: 24px;
-                padding: $gap;
-                &:hover {
-                  background-color: #eee;
+                border-left: solid 1px $primary;
+                border-right: solid 1px $primary;
+                a {
+                  display: block;
+                  line-height: 24px;
+                  padding: $gap;
+                  &:hover {
+                    background-color: #eee;
+                  }
                 }
               }
             }
-          }
             overflow: hidden;
             &::-webkit-scrollbar {
               width: 12px;
@@ -218,22 +224,102 @@
 
 .header-logo {
   padding: 0;
-height: $header-height;
+  height: $header-height;
 
   a {
-  svg {
-    width: 100px;
-    height: $header-height;
-    padding: 10px 0;
-    * {
-      fill: $primary;
-   }
-  }
+    svg {
+      width: 100px;
+      height: $header-height;
+      padding: 10px 0;
+      * {
+        fill: $primary;
+      }
+    }
     &:hover svg * {
       fill: $secondary;
     }
-  height: $header-height;
-  display: block;
+    height: $header-height;
+    display: block;
 
+  }
+}
+
+@media (max-width: $size-sm) {
+  .mobile-trigger {
+    display: inline-block !important;
+    cursor: pointer;
+    position: absolute;
+    top: -53px;
+    right: 14px;
+    width: auto;
+    height: auto;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+      background-color: $white;
+      border-color: transparent;
+    }
+     i {
+      display: inline;
+      position: relative;
+      top: -4px;
+      &:before, &:after {
+        position: absolute;
+        content: "";
+      }
+      width: 22px;
+      height: 2px;
+      -webkit-border-radius: 1px;
+      -moz-border-radius: 1px;
+      border-radius: 1px;
+      background-color: $primary;
+      display: inline-block;
+      @include transition;
+      &:before, &:after {
+        @include transition;
+        width: 22px;
+        height: 2px;
+        -webkit-border-radius: 1px;
+        -moz-border-radius: 1px;
+        border-radius: 1px;
+        background-color: $primary;
+        display: inline-block;
+      }
+      &:before {
+        top: -6px;
+      }
+      &:after {
+        top: 6px;
+      }
+    }
+    &:hover i {
+      background-color: $secondary;
+      &:before, &:after {
+        background-color: $secondary;
+      }
+    }
+    .mobile-open & {
+       i {
+      background: transparent !important;
+
+    }
+
+    i {
+      &:before {
+        transform: translateY(6px) translateX(0) rotate(45deg);
+        -webkit-transform: translateY(6px) translateX(0) rotate(45deg);
+        -moz-transform: translateY(6px) translateX(0) rotate(45deg);
+      }
+      &:after {
+        transform: translateY(-6px) translateX(0) rotate(-45deg);
+        -webkit-transform: translateY(-6px) translateX(0) rotate(-45deg);
+        -moz-transform: translateY(-6px) translateX(0) rotate(-45deg);
+      }
+    }
+  }
   }
 }

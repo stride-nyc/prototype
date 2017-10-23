@@ -15074,7 +15074,8 @@ body.helloBar #helloBar {
       margin: 60px 0 10px 0; } }
   @media screen and (max-width: 768px) and (min-width: 400px) {
     .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul > li {
-      width: 50%; } }
+      width: 50%;
+      float: left; } }
   .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul .hs-menu-children-wrapper {
     display: none; }
   .header-container-wrapper .header--top--nav .hs-menu-wrapper > ul:hover {

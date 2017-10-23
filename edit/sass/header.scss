@@ -3,6 +3,12 @@
     position: -webkit-sticky;
     position: sticky;
     top: -1px;
+    .custom-header-v3 {
+  background-color: rgba($white, .95);
+    border-bottom: solid 1px $primary;
+    @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
+
+ }
   }
 
   a:not(.cta_button) {
@@ -67,8 +73,23 @@
             background-color: $white;
             overflow: auto;
             max-height: 80vh;
+            @include media($size-md, min) {
             border-bottom: solid 1px $primary;
             @include shadow(normal, 0 3px 0 rgba(0, 0, 0, 0.07));
+            li {
+
+              border-left: solid 1px $primary;
+              border-right: solid 1px $primary;
+              a {
+                display: block;
+                line-height: 24px;
+                padding: $gap;
+                &:hover {
+                  background-color: #eee;
+                }
+              }
+            }
+          }
             overflow: hidden;
             &::-webkit-scrollbar {
               width: 12px;
@@ -84,16 +105,7 @@
             li {
               text-align: left;
               padding: 0;
-              border-left: solid 1px $primary;
-              border-right: solid 1px $primary;
-              a {
-                display: block;
-                line-height: 24px;
-                padding: $gap;
-                &:hover {
-                  background-color: #eee;
-                }
-              }
+
             }
           }
           > a {
@@ -202,12 +214,7 @@
   }
 }
 
-.custom-header-v3 {
-  background-color: rgba($white, .95);
-    border-bottom: solid 1px $primary;
-    @include shadow(normal, 0px 3px 0 rgba(0, 0, 0, 0.07));
 
- }
 
 .header-logo {
   padding: 0;

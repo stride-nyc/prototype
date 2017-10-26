@@ -246,9 +246,9 @@
 
   a {
     svg {
-      width: 100px;
+      width: 150px;
       height: $header-height;
-      padding: 10px 0;
+      padding: 6px 0;
       * {
         fill: $primary;
         @include transition;
